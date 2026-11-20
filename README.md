@@ -87,7 +87,7 @@ Results are educational and not a guarantee for any decision.
 
 ## Background
 
-`shipornot` is the free companion to *Is B Really Better?*, a decision guide for LLM evals (which question to ask, which number answers it, how many cases to build, and how to write the result up for a non-statistician). **The guide is not on sale.** If you want to hear when it is released, watch this repository (Watch → Custom → Releases). No email is needed.
+`shipornot` is the free companion to *Is B Really Better?*, a decision guide for LLM evals (which question to ask, which number answers it, how many cases to build, and how to write the result up for a non-statistician). **The guide is not on sale.** A free Quick Card and two free articles are at https://asteroidnote1.github.io/. If you want to hear when it is released, watch this repository (Watch → Custom → Releases). No email is needed.
 
 Written with AI assistance.
 
