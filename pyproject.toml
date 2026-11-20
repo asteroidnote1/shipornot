@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shipornot"
+version = "0.1.0"
+description = "Small-sample statistics for LLM evals: honest intervals, paired comparisons, sample-size planning, and a non-inferiority gate."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy"]
+license = { text = "MIT" }
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "statsmodels"]
+
+[project.scripts]
+shipornot = "shipornot:main"
+
+[tool.setuptools]
+py-modules = ["shipornot"]
